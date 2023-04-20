@@ -6,10 +6,10 @@ export default class Card extends Component {
         return (
             <div className="container py-5">
                 <div className='text-center'>
-                    <div className='position-relative d-inline-block'>
+                    <div className='card position-relative d-inline-block'>
                         <img src="/glassesImage/model.jpg" alt="model" />
                         <div>
-                            <img className='position-absolute top-0 start-50 translate-middle' src={glassPush.url}alt="v1" style={{
+                            <img className='position-absolute top-0 start-50 translate-middle' src={glassPush.url}alt="" style={{
                                 width: '60%',
                                 marginTop: '180px',
                                 opacity: '60%'

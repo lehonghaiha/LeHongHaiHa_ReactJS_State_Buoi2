@@ -18,7 +18,7 @@ export default class List extends Component {
         let {selectGlasses} = this.props;
         return (
 
-            <div className='container d-flex justify-content-center bg-body-tertiary mt-3'>
+            <div className='container shadow rounded d-flex justify-content-center bg-body-tertiary my-3 mb-3'>
                 <div className='row px-3'>
                     {this.renderMapList()}
                 </div>
